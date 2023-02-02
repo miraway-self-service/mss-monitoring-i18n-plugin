@@ -76,22 +76,12 @@
     }
   },
   "messages": {
-    "console.devToolsDescription": "Bỏ qua cURL và sử dụng giao diện JSON để xử lý dữ liệu của bạn trong bảng điều khiển.",
-    "console.devToolsTitle": "Tương tác với API OpenSearch",
+    ">>>>> comment: common_translate": "Common translation",
+    "common.close": "Đóng",
+    "common.refresh": "Làm mới",
+    "common.default": "Mặc định",
 
     "core.ui.welcomeMessage": "Đang tải OpenSearch",
-
-    "dashboard.featureCatalogue.dashboardSubtitle": "Phân tích dữ liệu trong bảng điều khiển.",
-
-    "Discovery.DiscoverSubtitle": "Tìm kiếm và tìm kết quả phân tích.",
-
-    ">>>>> comment: home_translate": "Home translation",
-    "home.addData.sectionTitle": "Lấy dữ liệu của bạn",
-    "home.breadcrumbs.homeTitle": "Trang chủ",
-    "home.header.title": "Trang chủ",
-    "home.manageData.sectionTitle": "Quản lý dữ liệu của bạn",
-    "home.tutorialDirectory.featureCatalogueDescription": "Thu thập dữ liệu từ các ứng dụng và dịch vụ phổ biến.",
-    "home.tutorialDirectory.featureCatalogueTitle": "Thêm dữ liệu",
 
     "opensearchDashboardsOverview.opensearchDashboards.solution.subtitle": "Trực quan hóa và Phân tích",
     "opensearch-dashboards-react.osdOverviewPageHeader.addDataButtonLabel": "Thêm dữ liệu",
@@ -100,7 +90,7 @@
     "opensearch-dashboards-react.pageFooter.appDirectoryButtonLabel": "Xem thư mục ứng dụng",
     "opensearch-dashboards-react.pageFooter.changeHomeRouteLink": "Hiển thị trang khác khi đăng nhập",
 
-    ">>>>> comment: wazuh_plugin_translate": "Wazuh plugin translation",
+    ">>>>>>>>>>>> comment: wazuh_plugin_translate": "Start Wazuh plugin translation ",
     "discover.noResults.expandYourTimeRangeTitle": "Mở rộng phạm vi thời gian của bạn",
     "discover.noResults.queryMayNotMatchTitle": "Một hoặc nhiều chỉ số bạn đang xem có chứa trường ngày. Truy vấn của bạn có thể không khớp với bất kỳ thứ gì trong phạm vi thời gian hiện tại hoặc có thể không có bất kỳ dữ liệu nào trong phạm vi thời gian hiện được chọn. Bạn có thể thử thay đổi phạm vi thời gian thành phạm vi chứa dữ liệu.",
     "discover.noResults.searchExamples.anyField200StatusCodeExampleTitle": "Tìm yêu cầu chứa số 200, trong bất kỳ trường nào",
@@ -159,7 +149,6 @@
     "discover.docTable.tableRow.toggleRowDetailsButtonAriaLabel": "Chuyển đổi chi tiết của hàng",
     "discover.histogramOfFoundDocumentsAriaLabel": "Biểu đồ tài liệu được tìm thấy",
 
-    ">>>>> comment: overviewWelcome_translate": "OverviewWelcome translation",
     "overviewWelcome.agent.notExist": "Không có đại lý nào được thêm vào người quản lý này",
     "overviewWelcome.agent.add": "Thêm đại lý",
     "overviewWelcome.label.sercurity": "Quản lý thông tin bảo mật",
@@ -171,7 +160,6 @@
     "overviewWelcome.stats.pendingAgents": "Đại lý đang chờ xử lý",
     "overviewWelcome.stats.neverConnectedAgents": "Đại lý chưa từng được kết nối",
 
-    ">>>>> comment: wazuhModules_translate": "WazuhModules translation",
     "wazuhModules.general.title": "Sự kiện bảo mật",
     "wazuhModules.general.description": "Duyệt qua các cảnh báo bảo mật của bạn, xác định các vấn đề và mối đe dọa trong môi trường của bạn.",
     "wazuhModules.fim.title": "Giám sát toàn vẹn tệp",
@@ -227,7 +215,6 @@
     "wazuhModules.testConfiguration.title": "Kiểm tra cấu hình của bạn",
     "wazuhModules.testConfiguration.description": "Kiểm tra cấu hình trước khi áp dụng chúng",
 
-    ">>>>> comment: agents_translate": "Agents translation",
     "agents.deploy": "Triển khai đại lý mới",
     "agents.step.operateSys": "Chọn hệ điều hành",
     "agents.step.choose": "Chọn phiên bản",
@@ -236,13 +223,15 @@
     "agents.step.wazuhPassword": "Mật khẩu Wazuh",
     "agents.step.assignNameOrGroupAgent": "Mật khẩu Wazuh",
     "agents.step.installAndEnrollTheAgent": "Cài đặt và đăng ký đại lý",
-    "agents.step.verifyError": "Có những trường có lỗi. Vui lòng xác minh chúng.",
-    "agents.selectOs.operateSys": "Có những trường có lỗi. Vui lòng xác minh chúng.",
+    "agents.step.verifyError": "có những trường có lỗi. Vui lòng xác minh chúng",
+    "agents.selectOs.operateSys": "có những trường có lỗi. Vui lòng xác minh chúng",
     "agents.selectOs.title": "Phiên bản OS",
     "agents.selectOs.architecture": "Kiến trúcc OS",
-
-    ">>>>> comment: common_translate": "Common translation",
-    "common.close": "Đóng",
-    "common.refresh": "Làm mới"
+    "agents.rules.select": "Vui lòng chọn {text}.",
+    "agents.rules.minCharacter": "The minimum length is 2 characters.",
+    "agents.rules.badCharacter": "The character {character}",
+    "agents.rules.configOrPermission": "This section could not be configured because you do not have permission to read groups.",
+    "agents.info.name": "Name agent",
+    "<<<<<<<<<<<<<<< comment: wazuh_plugin_translate": "End Wazuh plugin translation"
   }
 }

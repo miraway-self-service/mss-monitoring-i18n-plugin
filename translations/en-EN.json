@@ -1,21 +1,86 @@
 {
+  "formats": {
+    "number": {
+      "currency": {
+        "style": "currency"
+      },
+      "percent": {
+        "style": "percent"
+      }
+    },
+    "date": {
+      "short": {
+        "month": "numeric",
+        "day": "numeric",
+        "year": "2-digit"
+      },
+      "medium": {
+        "month": "short",
+        "day": "numeric",
+        "year": "numeric"
+      },
+      "long": {
+        "month": "long",
+        "day": "numeric",
+        "year": "numeric"
+      },
+      "full": {
+        "weekday": "long",
+        "month": "long",
+        "day": "numeric",
+        "year": "numeric"
+      }
+    },
+    "time": {
+      "short": {
+        "hour": "numeric",
+        "minute": "numeric"
+      },
+      "medium": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric"
+      },
+      "long": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      },
+      "full": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      }
+    },
+    "relative": {
+      "years": {
+        "units": "year"
+      },
+      "months": {
+        "units": "month"
+      },
+      "days": {
+        "units": "day"
+      },
+      "hours": {
+        "units": "hour"
+      },
+      "minutes": {
+        "units": "minute"
+      },
+      "seconds": {
+        "units": "second"
+      }
+    }
+  },
   "messages": {
-    "console.devToolsDescription": "Bỏ qua cURL và sử dụng giao diện JSON để xử lý dữ liệu của bạn trong bảng điều khiển.",
-    "console.devToolsTitle": "Tương tác với API OpenSearch",
+    ">>>>> comment: common_translate": "Common translation",
+    "common.close": "Close",
+    "common.refresh": "Refresh",
 
-    "core.ui.welcomeMessage": "Đang tải OpenSearch",
-
-    "dashboard.featureCatalogue.dashboardSubtitle": "Phân tích dữ liệu trong bảng điều khiển.",
-
-    "Discovery.DiscoverSubtitle": "Tìm kiếm và tìm kết quả phân tích.",
-
-    ">>>>> comment: home_translate": "Home translation",
-    "home.addData.sectionTitle": "Lấy dữ liệu của bạn",
-    "home.breadcrumbs.homeTitle": "Trang chủ",
-    "home.header.title": "Trang chủ",
-    "home.manageData.sectionTitle": "Quản lý dữ liệu của bạn",
-    "home.tutorialDirectory.featureCatalogueDescription": "Thu thập dữ liệu từ các ứng dụng và dịch vụ phổ biến.",
-    "home.tutorialDirectory.featureCatalogueTitle": "Thêm dữ liệu",
+    "core.ui.welcomeMessage": "Loading OpenSearch",
 
     "opensearchDashboardsOverview.opensearchDashboards.solution.subtitle": "Trực quan hóa và Phân tích",
     "opensearch-dashboards-react.osdOverviewPageHeader.addDataButtonLabel": "Thêm dữ liệu",
@@ -24,8 +89,7 @@
     "opensearch-dashboards-react.pageFooter.appDirectoryButtonLabel": "Xem thư mục ứng dụng",
     "opensearch-dashboards-react.pageFooter.changeHomeRouteLink": "Hiển thị trang khác khi đăng nhập",
 
-    ">>>>> comment: wazuh_plugin_translate": "Wazuh plugin translation",
-    "welcome.noAgent": "No agents were added to this manager",
+    ">>>>> comment: wazuh_plugin_translate": "Start Wazuh plugin translation",
     "discover.noResults.expandYourTimeRangeTitle": "Expand your time range",
     "discover.noResults.queryMayNotMatchTitle": "One or more of the indices you&rsquo;re looking at contains a date field. Your query may not match anything in the current time range, or there may not be any data at all in the currently selected time range. You can try changing the time range to one which contains data.",
     "discover.noResults.searchExamples.anyField200StatusCodeExampleTitle": "Find requests that contain the number 200, in any field",
@@ -84,7 +148,6 @@
     "discover.docTable.tableRow.toggleRowDetailsButtonAriaLabel": "Toggle row details",
     "discover.histogramOfFoundDocumentsAriaLabel": "Histogram of found documents",
 
-    ">>>>> comment: overviewWelcome_translate": "OverviewWelcome translation",
     "overviewWelcome.agent.notExist": "Không có đại lý nào được thêm vào người quản lý này",
     "overviewWelcome.agent.add": "Thêm đại lý",
     "overviewWelcome.label.sercurity": "Security Information Management",
@@ -96,7 +159,6 @@
     "overviewWelcome.stats.pendingAgents": "Pending agents",
     "overviewWelcome.stats.neverConnectedAgents": "Never connected agents",
 
-    ">>>>> comment: wazuhModules_translate": "WazuhModules translation",
     "wazuhModules.general.title": "Security events",
     "wazuhModules.general.description": "Browse through your security alerts, identifying issues and threats in your environment.",
     "wazuhModules.fim.title": "Integrity monitoring",
@@ -152,7 +214,6 @@
     "wazuhModules.testConfiguration.title": "Test your configurations",
     "wazuhModules.testConfiguration.description": "Check configurations before applying them",
 
-    ">>>>> comment: agents_translate": "Agents translation",
     "agents.deloy": "Deploy a new agent",
     "agents.step.operateSys": "Choose the operating system",
     "agents.step.choose": "Choose the version",
@@ -165,9 +226,11 @@
     "agents.selectOs.operateSys": "Operating system",
     "agents.selectOs.title": "OS version",
     "agents.selectOs.architecture": "OS architecture",
-
-    ">>>>> comment: common_translate": "Common translation",
-    "common.close": "Close",
-    "common.refresh": "Refresh"
+    "agents.rules.select": "Please select the {text}.",
+    "agents.rules.minCharacter": "The minimum length is 2 characters.",
+    "agents.rules.badCharacter": "The minimum length is 2 characters.",
+    "agents.rules.configOrPermission": "This section could not be configured because you do not have permission to read groups.",
+    "agents.info.name": "Name agent",
+    "<<<<<<<<<<<<<<< comment: wazuh_plugin_translate": "End Wazuh plugin translation"
   }
 }
