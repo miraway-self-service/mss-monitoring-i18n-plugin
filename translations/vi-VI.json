@@ -1,0 +1,248 @@
+{
+  "formats": {
+    "number": {
+      "currency": {
+        "style": "currency"
+      },
+      "percent": {
+        "style": "percent"
+      }
+    },
+    "date": {
+      "short": {
+        "month": "numeric",
+        "day": "numeric",
+        "year": "2-digit"
+      },
+      "medium": {
+        "month": "short",
+        "day": "numeric",
+        "year": "numeric"
+      },
+      "long": {
+        "month": "long",
+        "day": "numeric",
+        "year": "numeric"
+      },
+      "full": {
+        "weekday": "long",
+        "month": "long",
+        "day": "numeric",
+        "year": "numeric"
+      }
+    },
+    "time": {
+      "short": {
+        "hour": "numeric",
+        "minute": "numeric"
+      },
+      "medium": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric"
+      },
+      "long": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      },
+      "full": {
+        "hour": "numeric",
+        "minute": "numeric",
+        "second": "numeric",
+        "timeZoneName": "short"
+      }
+    },
+    "relative": {
+      "years": {
+        "units": "year"
+      },
+      "months": {
+        "units": "month"
+      },
+      "days": {
+        "units": "day"
+      },
+      "hours": {
+        "units": "hour"
+      },
+      "minutes": {
+        "units": "minute"
+      },
+      "seconds": {
+        "units": "second"
+      }
+    }
+  },
+  "messages": {
+    "console.devToolsDescription": "Bỏ qua cURL và sử dụng giao diện JSON để xử lý dữ liệu của bạn trong bảng điều khiển.",
+    "console.devToolsTitle": "Tương tác với API OpenSearch",
+
+    "core.ui.welcomeMessage": "Đang tải OpenSearch",
+
+    "dashboard.featureCatalogue.dashboardSubtitle": "Phân tích dữ liệu trong bảng điều khiển.",
+
+    "Discovery.DiscoverSubtitle": "Tìm kiếm và tìm kết quả phân tích.",
+
+    ">>>>> comment: home_translate": "Home translation",
+    "home.addData.sectionTitle": "Lấy dữ liệu của bạn",
+    "home.breadcrumbs.homeTitle": "Trang chủ",
+    "home.header.title": "Trang chủ",
+    "home.manageData.sectionTitle": "Quản lý dữ liệu của bạn",
+    "home.tutorialDirectory.featureCatalogueDescription": "Thu thập dữ liệu từ các ứng dụng và dịch vụ phổ biến.",
+    "home.tutorialDirectory.featureCatalogueTitle": "Thêm dữ liệu",
+
+    "opensearchDashboardsOverview.opensearchDashboards.solution.subtitle": "Trực quan hóa và Phân tích",
+    "opensearch-dashboards-react.osdOverviewPageHeader.addDataButtonLabel": "Thêm dữ liệu",
+    "opensearch-dashboards-react.osdOverviewPageHeader.devToolsButtonLabel": "Công cụ phát triển",
+    "opensearch-dashboards-react.osdOverviewPageHeader.stackManagementButtonLabel": "Quản lý",
+    "opensearch-dashboards-react.pageFooter.appDirectoryButtonLabel": "Xem thư mục ứng dụng",
+    "opensearch-dashboards-react.pageFooter.changeHomeRouteLink": "Hiển thị trang khác khi đăng nhập",
+
+    ">>>>> comment: wazuh_plugin_translate": "Wazuh plugin translation",
+    "discover.noResults.expandYourTimeRangeTitle": "Mở rộng phạm vi thời gian của bạn",
+    "discover.noResults.queryMayNotMatchTitle": "Một hoặc nhiều chỉ số bạn đang xem có chứa trường ngày. Truy vấn của bạn có thể không khớp với bất kỳ thứ gì trong phạm vi thời gian hiện tại hoặc có thể không có bất kỳ dữ liệu nào trong phạm vi thời gian hiện được chọn. Bạn có thể thử thay đổi phạm vi thời gian thành phạm vi chứa dữ liệu.",
+    "discover.noResults.searchExamples.anyField200StatusCodeExampleTitle": "Tìm yêu cầu chứa số 200, trong bất kỳ trường nào",
+    "discover.noResults.searchExamples.statusField200StatusCodeExampleTitle": "Tìm 200 trong trường trạng thái",
+    "discover.noResults.searchExamples.400to499StatusCodeExampleTitle": "Tìm tất cả các mã trạng thái trong khoảng 400-499",
+    "discover.noResults.searchExamples.400to499StatusCodeWithPhpExtensionExampleTitle": "Tìm mã trạng thái 400-499 bằng phần mở rộng php",
+    "discover.noResults.searchExamples.400to499StatusCodeWithPhpOrHtmlExtensionExampleTitle": "Tìm mã trạng thái 400-499 bằng phần mở rộng php hoặc html",
+    "discover.noResults.searchExamples.refineYourQueryTitle": "Tinh chỉnh truy vấn của bạn",
+    "discover.noResults.searchExamples.howTosearchForWebServerLogsDescription": "Thanh tìm kiếm ở trên cùng sử dụng hỗ trợ của Elaticsearch cho Lucene {queryStringSyntaxLink}.",
+    "discover.noResults.searchExamples.queryStringSyntaxLinkText": "Cú pháp chuỗi truy vấn",
+    "discover.noResults.searchExamples.noResultsMatchSearchCriteriaTitle": "Không có kết quả phù hợp với tiêu chí tìm kiếm của bạn",
+    "discover.uninitializedTitle": "Bắt đầu tìm kiếm",
+    "discover.uninitializedText": "Viết truy vấn, thêm một số bộ lọc hoặc chỉ cần nhấn Làm mới để truy xuất kết quả cho truy vấn hiện tại.",
+    "discover.uninitializedRefreshButtonText": "Làm mới dữ liệu",
+    "discover.docTable.pagerControl.pagesCountLabel": "{startItem}&ndash;{endItem}/{totalItems}",
+    "discover.context.failedToLoadAnchorDocumentDescription": "Không tải được tài liệu neo",
+    "discover.context.reloadPageDescription.reloadOrVisitTextMessage": "Vui lòng tải lại hoặc quay lại danh sách tài liệu để chọn một tài liệu neo hợp lệ.",
+    "discover.documentsAriaLabel": "Các tài liệu",
+    "discover.howToSeeOtherMatchingDocumentsDescription": "Đây là những tài liệu {sampleSize} đầu tiên phù hợp với tìm kiếm của bạn, hãy tinh chỉnh tìm kiếm của bạn để xem những tài liệu khác.",
+    "discover.backToTopLinkText": "Trở lại đầu trang.",
+    "discover.doc.failedToLocateIndexPattern": "Không có mẫu chỉ mục nào khớp với ID {indexPatternId}",
+    "discover.doc.failedToLocateDocumentDescription": "Không thể tìm thấy tài liệu",
+    "discover.doc.couldNotFindDocumentsDescription": "Không có tài liệu nào phù hợp với ID đó.",
+    "discover.doc.failedToExecuteQueryDescription": "Không thể chạy tìm kiếm",
+    "discover.doc.somethingWentWrongDescription": "{indexName} bị thiếu.",
+    "discover.doc.somethingWentWrongDescriptionAddon": "Vui lòng đảm bảo chỉ mục tồn tại.",
+    "discover.doc.loadingDescription": "Đang tải...",
+    "discover.hitsPluralTitle": "{hits, plural, one {hit} other {hits}}",
+    "discover.reloadSavedSearchButton": "Đặt lại tìm kiếm",
+    "discover.searchingTitle": "Đang tìm kiếm",
+    "discover.fieldChooser.detailViews.visualizeLinkText": "Hình dung",
+    "discover.fieldChooser.detailViews.existsText": "Tồn tại trong",
+    "discover.fieldChooser.detailViews.recordsText": "Hồ sơ",
+    "discover.fieldChooser.fieldFilterFacetButtonLabel": "Lọc theo loại",
+    "discover.fieldChooser.indexPattern.changeLinkTooltip": "Thay đổi mẫu chỉ mục hiện tại",
+    "discover.fieldChooser.filter.selectedFieldsTitle": "Các trường đã chọn",
+    "discover.fieldChooser.filter.availableFieldsTitle": "Các trường có sẵn",
+    "discover.fieldChooser.filter.popularTitle": "Phổ biến",
+    "discover.skipToBottomButtonLabel": "Chuyển đến cuối bảng",
+    "discover.docViews.table.filterForValueButtonTooltip": "Lọc giá trị",
+    "discover.docViews.table.unableToFilterForPresenceOfScriptedFieldsTooltip": "Không thể lọc sự hiện diện của các trường theo tập lệnh",
+    "discover.docViews.table.unableToFilterForPresenceOfMetaFieldsTooltip": "Không thể lọc sự hiện diện của các trường meta",
+    "discover.docViews.table.filterForFieldPresentButtonTooltip": "Bộ lọc cho trường hiện tại",
+    "discover.docViews.table.unindexedFieldsCanNotBeSearchedTooltip": "Không thể tìm kiếm các trường chưa lập chỉ mục",
+    "discover.docViews.table.filterOutValueButtonTooltip": "Lọc ra giá trị",
+    "discover.docViews.table.toggleColumnInTableButtonTooltip": "Chuyển đổi cột trong bảng",
+    "discover.topNav.openSearchPanel.openSearchTitle": "Mở tìm kiếm",
+    "discover.topNav.openSearchPanel.noSearchesFoundDescription": "Không tìm thấy tìm kiếm phù hợp.",
+    "discover.topNav.openSearchPanel.manageSearchesButtonLabel": "Quản lý tìm kiếm",
+    "discover.docTable.tableRow.detailHeading": "Tài liệu mở rộng",
+    "discover.docTable.tableRow.viewSurroundingDocumentsLinkText": "Xem tài liệu xung quanh",
+    "discover.docTable.tableRow.viewSingleDocumentLinkText": "Xem tài liệu duy nhất",
+    "discover.docTable.noResultsTitle": "Không tim được kêt quả",
+    "discover.docTable.tableRow.filterForValueButtonAriaLabel": "Lọc giá trị",
+    "discover.docTable.tableRow.filterOutValueButtonTooltip": "Lọc giá trị",
+    "discover.docTable.tableRow.toggleRowDetailsButtonAriaLabel": "Chuyển đổi chi tiết của hàng",
+    "discover.histogramOfFoundDocumentsAriaLabel": "Biểu đồ tài liệu được tìm thấy",
+
+    ">>>>> comment: overviewWelcome_translate": "OverviewWelcome translation",
+    "overviewWelcome.agent.notExist": "Không có đại lý nào được thêm vào người quản lý này",
+    "overviewWelcome.agent.add": "Thêm đại lý",
+    "overviewWelcome.label.sercurity": "Quản lý thông tin bảo mật",
+    "overviewWelcome.label.auditAndProlicy": "Kiểm toán và giám sát chính sách",
+    "overviewWelcome.agents.gotoAll": "Tới tất cả các đại lý",
+    "overviewWelcome.stats.totalAgents": "Tổng số đại lý",
+    "overviewWelcome.stats.activeAgents": "Đại lý đang hoạt động",
+    "overviewWelcome.stats.disconnectedAgents": "Đại lý bị ngắt kết nối",
+    "overviewWelcome.stats.pendingAgents": "Đại lý đang chờ xử lý",
+    "overviewWelcome.stats.neverConnectedAgents": "Đại lý chưa từng được kết nối",
+
+    ">>>>> comment: wazuhModules_translate": "WazuhModules translation",
+    "wazuhModules.general.title": "Sự kiện bảo mật",
+    "wazuhModules.general.description": "Duyệt qua các cảnh báo bảo mật của bạn, xác định các vấn đề và mối đe dọa trong môi trường của bạn.",
+    "wazuhModules.fim.title": "Giám sát toàn vẹn tệp",
+    "wazuhModules.fim.description": "Cảnh báo liên quan đến thay đổi tệp, bao gồm quyền, nội dung, quyền sở hữu và thuộc tính.",
+    "wazuhModules.pm.title": "Giám sát các chính sách",
+    "wazuhModules.pm.description": "Xác minh rằng hệ thống của bạn được định cấu hình theo cơ sở chính sách bảo mật của bạn.",
+    "wazuhModules.vuls.title": "Lỗ hổng",
+    "wazuhModules.vuls.description": "Khám phá những ứng dụng nào trong môi trường của bạn bị ảnh hưởng bởi các lỗ hổng nổi tiếng.",
+    "wazuhModules.oscap.title": "OpenSCAP",
+    "wazuhModules.oscap.description": "Đánh giá cấu hình và tự động hóa giám sát tuân thủ bằng kiểm tra SCAP.",
+    "wazuhModules.audit.title": "Kiểm toán hệ thống",
+    "wazuhModules.audit.description": "Kiểm tra hành vi của người dùng, giám sát việc thực thi lệnh và cảnh báo khi truy cập vào các tệp quan trọng.",
+    "wazuhModules.pci.title": "PCI DSS",
+    "wazuhModules.pci.description": "Tiêu chuẩn bảo mật toàn cầu dành cho các thực thể xử lý, lưu trữ hoặc truyền dữ liệu chủ thẻ thanh toán.",
+    "wazuhModules.gdpr.title": "GDPR",
+    "wazuhModules.gdpr.description": "Quy định chung về bảo vệ dữ liệu (GDPR) đặt ra các nguyên tắc xử lý dữ liệu cá nhân.",
+    "wazuhModules.hipaa.title": "HIPAA",
+    "wazuhModules.hipaa.description": "Đạo luật về trách nhiệm giải trình và cung cấp thông tin bảo hiểm y tế năm 1996 (HIPAA) cung cấp các điều khoản về quyền riêng tư và bảo mật dữ liệu để bảo vệ thông tin y tế.",
+    "wazuhModules.nist.title": "NIST 800-53",
+    "wazuhModules.nist.description": "Viện Tiêu chuẩn và Công nghệ Quốc gia Ấn phẩm Đặc biệt 800-53 (NIST 800-53) đưa ra các hướng dẫn cho các hệ thống thông tin liên bang.",
+    "wazuhModules.tsc.title": "TSC",
+    "wazuhModules.tsc.description": "Tiêu chí dịch vụ tin cậy về bảo mật, tính khả dụng, xử lý toàn vẹn, bảo mật và quyền riêng tư",
+    "wazuhModules.ciscat.title": "CIS-CAT",
+    "wazuhModules.ciscat.description": "Đánh giá cấu hình bằng cách sử dụng trình quét Trung tâm bảo mật Internet và kiểm tra SCAP.",
+    "wazuhModules.aws.title": "Amazon AWS",
+    "wazuhModules.aws.description": "Các sự kiện bảo mật liên quan đến các dịch vụ Amazon AWS của bạn, được thu thập trực tiếp qua AWS API.",
+    "wazuhModules.office.title": "Office 365",
+    "wazuhModules.office.description": "Các sự kiện bảo mật liên quan đến các dịch vụ Office 365 của bạn.",
+    "wazuhModules.gcp.title": "Nền tảng đám mây của Google",
+    "wazuhModules.gcp.description": "Các sự kiện bảo mật liên quan đến dịch vụ Google Cloud Platform của bạn, được thu thập trực tiếp qua API GCP.', // TODO G",
+    "wazuhModules.virustotal.title": "VirusTotal",
+    "wazuhModules.virustotal.description": "Cảnh báo do VirusTotal phân tích các tệp đáng ngờ thông qua tích hợp với API của chúng.",
+    "wazuhModules.mitre.title": "MITRE ATT&CK",
+    "wazuhModules.mitre.description": "Các sự kiện bảo mật từ cơ sở tri thức về các chiến thuật và kỹ thuật của đối thủ dựa trên các quan sát trong thế giới thực",
+    "wazuhModules.syscollector.title": "Dữ liệu hàng tồn kho",
+    "wazuhModules.syscollector.description": "Các ứng dụng, cấu hình mạng, cổng mở và quy trình đang chạy trên hệ thống được giám sát của bạn.",
+    "wazuhModules.stats.title": "Số liệu thống kê",
+    "wazuhModules.stats.description": "Số liệu thống kê cho tác nhân và trình thu thập nhật ký",
+    "wazuhModules.configuration.title": "Cấu hình",
+    "wazuhModules.configuration.description": "Kiểm tra cấu hình tác nhân hiện tại được áp dụng từ xa bởi nhóm của nó.",
+    "wazuhModules.osquery.title": "Osquery",
+    "wazuhModules.osquery.description": "Osquery có thể được sử dụng để hiển thị một hệ điều hành dưới dạng cơ sở dữ liệu quan hệ hiệu năng cao.",
+    "wazuhModules.sca.title": "Đánh giá cấu hình bảo mật",
+    "wazuhModules.sca.description": "Quét nội dung của bạn như một phần của kiểm toán đánh giá cấu hình.",
+    "wazuhModules.docker.title": "Docker",
+    "wazuhModules.docker.description": "Giám sát và thu thập hoạt động từ các bộ chứa Docker như tạo, chạy, bắt đầu, dừng hoặc tạm dừng các sự kiện.",
+    "wazuhModules.github.title": "GitHub",
+    "wazuhModules.github.description": "Theo dõi các sự kiện từ nhật ký kiểm toán của các tổ chức GitHub của bạn.",
+    "wazuhModules.devTools.title": "Bảng điều khiển API",
+    "wazuhModules.devTools.description": "Kiểm tra điểm cuối API Wazuh.",
+    "wazuhModules.logtest.title": "Kiểm tra nhật ký của bạn",
+    "wazuhModules.logtest.description": "Kiểm tra nhật ký kiểm tra bộ quy tắc của bạn.",
+    "wazuhModules.testConfiguration.title": "Kiểm tra cấu hình của bạn",
+    "wazuhModules.testConfiguration.description": "Kiểm tra cấu hình trước khi áp dụng chúng",
+
+    ">>>>> comment: agents_translate": "Agents translation",
+    "agents.deploy": "Triển khai đại lý mới",
+    "agents.step.operateSys": "Chọn hệ điều hành",
+    "agents.step.choose": "Chọn phiên bản",
+    "agents.step.architecture": "Chọn kiến trúc",
+    "agents.step.wazuhServerAddress": "Địa chỉ máy chủ Wazuh",
+    "agents.step.wazuhPassword": "Mật khẩu Wazuh",
+    "agents.step.assignNameOrGroupAgent": "Mật khẩu Wazuh",
+    "agents.step.installAndEnrollTheAgent": "Cài đặt và đăng ký đại lý",
+    "agents.step.verifyError": "Có những trường có lỗi. Vui lòng xác minh chúng.",
+    "agents.selectOs.operateSys": "Có những trường có lỗi. Vui lòng xác minh chúng.",
+    "agents.selectOs.title": "Phiên bản OS",
+    "agents.selectOs.architecture": "Kiến trúcc OS",
+
+    ">>>>> comment: common_translate": "Common translation",
+    "common.close": "Đóng",
+    "common.refresh": "Làm mới"
+  }
+}
